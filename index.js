@@ -117,7 +117,7 @@ function menu(opcionSeleccionada){
             buscarPorID()
     break
         default: 
-    alert(`Si Finalizo su trabajo y desea salir, presione 0`)
+    alert(`Si Finalizo su trabajo y desea salir, presione 0 por favor`)
     }
 }
 
