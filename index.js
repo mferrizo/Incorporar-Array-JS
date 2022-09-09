@@ -80,7 +80,6 @@ function buscarPorID(){
     } else{
         alert("Los resultado de la busqueda se muestran en la consola")
         console.log(`Coincidencias de Busqueda`)
-        alert(idEncontrado)
         console.log(idEncontrado)
     }
 }
@@ -107,17 +106,16 @@ function menu(opcionSeleccionada){
     break    
         case 1:
             mostrarStock(stock)
-      	break 
+    break 
    	    case 2: 
-           nuevoProducto(stock)
-      	break 
+            nuevoProducto(stock)
+    break 
    	    case 3: 
-           borrarUnProducto(stock)
-      	break
+            borrarUnProducto(stock)
+    break
         case 4: 
             buscarPorID()
-      	break
-      	break
+    break
         default: 
     alert(`Si Finalizo su trabajo y desea salir, presione 0`)
     }
